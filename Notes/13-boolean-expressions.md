@@ -11,7 +11,10 @@ int result;
 result = (5 > 3);  // 1
 result = (2 == 4); // 0
 
-// Boolean in Conditions
+```
+
+## Boolean in Conditions
+```c
 #include <stdio.h>
 #include <stdbool.h>  // For bool type
 
@@ -38,10 +41,15 @@ int main() {
     return 0;
 }
 
+```
 
-// Common Boolean Expressions
+
+## Common Boolean Expressions
+```c
 int a = 5, b = 3;
 printf("a > b: %d\n", a > b);      // 1
 printf("a == b: %d\n", a == b);    // 0
 printf("a != b: %d\n", a != b);    // 1
 printf("a <= b: %d\n", a <= b);    // 0
+
+```

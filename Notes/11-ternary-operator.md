@@ -14,9 +14,13 @@ int a = 5, b = 3;
 int max = (a > b) ? a : b;
 printf("Maximum: %d\n", max);  // Output: Maximum: 5
 
-// Nested ternary
+```
+## Nested ternary
+```
 int score = 85;
 char grade = (score >= 90) ? 'A' : 
              (score >= 80) ? 'B' : 
              (score >= 70) ? 'C' : 'F';
 printf("Grade: %c\n", grade);  // Output: Grade: B
+
+```
