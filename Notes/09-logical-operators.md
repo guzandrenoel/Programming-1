@@ -19,8 +19,8 @@ Logical operators combine boolean expressions and return a boolean result.
 | 1 | 1 | 1 |
 
 ### OR (`||`)
-| A | B | A || B |
-|---|---|--------|
+| A | B | A \|\| B |
+|---|---|----------|
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
