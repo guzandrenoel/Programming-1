@@ -5,7 +5,7 @@ Unary operators operate on a single operand.
 ## Increment/Decrement Operators
 
 ### Prefix (`++x`, `--x`) and Postfix (x++, x--)
-### sizeof() Operator
+## sizeof() Operator
 ```c
 // Prefix (`++x`, `--x`)
 Variable changed before use:
