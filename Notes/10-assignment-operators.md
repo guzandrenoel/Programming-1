@@ -1,5 +1,13 @@
 # Assignment Operators
 
+## Simple Assignment (`=`)
+
+It is used to assign a value to a variable. 
+
+```c
+int x = 10;
+
+```
 
 ## Compound Assignment Operators
 
@@ -14,14 +22,7 @@ Compound assignment operators perform an operation and assignment in one step.
 | `%=` | Modulus assignment | `x %= 3` | `x = x % 3` |
 
 
-## Simple Assignment (`=`)
-
-It is used to assign a value to a variable. 
-
 ```c
-int x = 10;
-
-
 #include <stdio.h>
 
 int main() {

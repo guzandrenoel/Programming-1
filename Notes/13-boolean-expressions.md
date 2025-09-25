@@ -5,7 +5,7 @@ A logical statement in computing that evaluates to one of two values: True or Fa
 - `0` → false  
 - Non-zero (usually `1`) → true  
 
-## Example:
+## Example
 ```c
 int result;
 result = (5 > 3);  // 1

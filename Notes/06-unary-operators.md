@@ -6,7 +6,7 @@ Unary operators operate on a single operand.
 
 The variable is modified first, then its new value is returned.
 
-```
+```c
 // Prefix (`++x`, `--x`) Variable changed before use:
 
 int x = 5;
@@ -18,7 +18,7 @@ int y = ++x;  // x=6, y=6
 
 The variable's original value is used in the expression, and then the variable is modified afterwards. 
 
-```
+```c
 // Postfix (x++, x--) Variable changed after use:
 
 int x = 5;
@@ -30,7 +30,7 @@ int y = x++;  // x=6, y=5
 
 An operator that returns the size in bytes of a variable or data type.
 
-```
+```c
 int age;
 printf("sizeof(int) = %zu bytes", sizeof(age));  // Output: sizeof(int) = 4 bytes
 
