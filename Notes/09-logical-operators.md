@@ -5,7 +5,7 @@ Logical operators combine boolean expressions and return a boolean result.
 | Operator | Description | Example | Result |
 |----------|-------------|---------|--------|
 | `&&` | AND | `(5 > 3) && (2 < 4)` | `1` (true) |
-| `||` | OR | `(5 > 3) || (2 > 4)` | `1` (true) |
+| `\|\|` | OR | `(5 > 3) \|\| (2 > 4)` | `1` (true) |
 | `!` | NOT | `!(5 > 3)` | `0` (false) |
 
 ## Truth Tables
