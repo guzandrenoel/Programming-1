@@ -1,5 +1,7 @@
 # Loops
 
+Control flow statements that allow a block of code to be executed repeatedly until a specified condition is met. They are essential for performing repetitive tasks efficiently. 
+
 ## while Loop
 
 Evaluates condition before execution.
