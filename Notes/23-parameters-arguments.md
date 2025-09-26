@@ -57,3 +57,31 @@ Before swap: x = 10, y = 20
 After swap: x = 10, y = 20
 // Note: The original values remain unchanged because only copies were modified.
 ```
+
+## Pass by Reference/Address
+- The value of an argument can be modified by the parameter
+
+- The memory address is passed instead of a copy
+
+```c
+void swapVal(int*, int*);
+
+void main() {
+    int x = 10, y = 20;
+    printf("Before swap: x = %d, y = %d", x, y);
+    swapVal(&x, &y);
+    printf("\nAfter swap: x = %d, y = %d", x, y);
+}
+
+void swapVal(int *a, int *b) {
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+```
+### Output:
+```c
+Before swap: x = 10, y = 20
+After swap: x = 20, y = 10
