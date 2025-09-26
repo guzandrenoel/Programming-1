@@ -32,3 +32,23 @@ for (int i = 0; i <= 10; i++) {
 
 ```
 
+## return Statement
+
+Exits the current function and optionally returns a value.
+
+```c
+int findMax(int a, int b) {
+    if (a > b) {
+        return a;  // Exit function and return value
+    }
+    return b;  // Exit function and return value
+}
+
+void printMessage() {
+    printf("Hello");
+    return;  // Exit function (optional for void functions)
+    printf("This won't print");  // Unreachable code
+}
+
+```
+
