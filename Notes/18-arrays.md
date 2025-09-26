@@ -12,12 +12,12 @@ int myArr[5] = {10, 20, 22, 19, 15};
 ```
 ## Accessing Elements
 
-### Direct Access:
+- **Direct Access:**
 ```c
 printf("%d", myArr[2]);  // 22
 
 ```
-### Access via loop:
+- **Access via loop:**
 ```c
 for (int i = 0; i < 5; i++) {
     printf("%d ", myArr[i]);
