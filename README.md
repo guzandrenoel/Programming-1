@@ -1,20 +1,14 @@
-# Programming 1 - C Language
-
-This repository contains my comprehensive notes, code examples, and exercises for Programming 1 using the C language. The content is organized into structured folders for easy navigation and learning.
-
-## 📁 Repository Structure
-
 
 ## 📚 Topics Covered
 
-### Basic Concepts
+### Basic Concepts (01-05)
 - **Header Files** - Standard library includes and their purposes
 - **Variables & Data Types** - Declaration, initialization, and primitive types
 - **Format Specifiers** - Input/output formatting with printf/scanf
 - **Typecasting** - Implicit and explicit type conversion
 - **Escape Sequences** - Special characters in strings
-
-### Operators
+s
+### Operators (06-12)
 - **Unary Operators** - Increment, decrement, and sizeof
 - **Arithmetic Operators** - Basic mathematical operations
 - **Relational Operators** - Comparison operations
@@ -23,29 +17,29 @@ This repository contains my comprehensive notes, code examples, and exercises fo
 - **Ternary Operator** - Conditional expressions
 - **Bitwise Operators** - Low-level bit manipulation
 
-### Control Structures
+### Control Structures (13-17)
 - **Boolean Expressions** - Truth values and conditions
 - **Decision Making** - if, else if, else, and switch statements
 - **Control Structures** - Sequence, conditional, and iteration
 - **Loops** - while, for, and do-while loops
-- **Loop Control** - break and continue statements
+- **Flow Control** - break, continue, and return statements
 
-### Data Structures
+### Data Structures (18-20)
 - **Arrays** - Single and multi-dimensional arrays
 - **Strings** - Character arrays and string manipulation
 - **String Functions** - Built-in string handling functions
 
-### Functions & Memory
-- **Functions** - Declaration, definition, and calling
+### Functions & Memory (21-23)
 - **Pointers & Addresses** - Memory addresses and pointer variables
-- **Parameter Passing** - Pass by value vs pass by reference
+- **Functions** - Declaration, definition, and calling
+- **Parameters & Arguments** - Pass by value vs pass by reference
 
 ## 🚀 How to Use This Repository
 
-1. **Study Notes**: Start with the `Notes/` folder for theoretical understanding
-2. **Review Examples**: Check `Examples/` for practical code implementations
+1. **Study Notes**: Follow the numbered files in sequence for structured learning
+2. **Review Examples**: Check `Examples/` folder for practical implementations
 3. **Practice**: Attempt exercises in `Exercises/` to reinforce learning
-4. **Compile & Run**: Use a C compiler (GCC recommended) to test code examples
+4. **Compile & Run**: Use a C compiler (GCC recommended) to test code
 
 ## 💻 Compilation Instructions
 
