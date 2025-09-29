@@ -1,3 +1,6 @@
+# Programming 1 - C Language
+
+This repository contains my comprehensive notes, code examples, and exercises for Programming 1 using the C language. The content is organized for easy navigation and learning.
 
 ## 📚 Topics Covered
 
