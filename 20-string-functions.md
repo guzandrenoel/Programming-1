@@ -6,33 +6,55 @@ Built-in functions from the string.h library for manipulating and working with s
 
 ```c
 #include <string.h>
+
 char str1[50] = "Hello, ";
 char str2[] = "World";
-strcat(str1, str2);
-printf("%s", str1);  // Hello, World
+strcat(str1, str2);  // Appends str2 to str1
+printf("%s", str1);  // Output: Hello, World
 
 ```
 
 ## strcmp() – Comparison
 ```c
+#include <string.h>
+
+char str1[] = "apple";
+char str2[] = "banana";
 int result = strcmp(str1, str2);
-// 0: equal, <0: str1 < str2, >0: str1 > str2
+
+// Returns: 
+// 0  - strings are equal
+// <0 - str1 comes before str2 alphabetically  
+// >0 - str1 comes after str2 alphabetically
+
+if (result == 0) {
+    printf("Strings are equal\n");
+} else if (result < 0) {
+    printf("str1 comes before str2\n");
+} else {
+    printf("str1 comes after str2\n");
+}
 
 ```
 
 ## strlen() – Length
 ```c
+#include <string.h>
+
 char str[] = "Hello, World!";
-int length = strlen(str);  // 13
+int length = strlen(str);  // Returns 13 (excluding null terminator)
+printf("Length: %d", length);
 
 ```
 
 ## strcpy() – Copy
 ```c
+#include <string.h>
+
 char src[] = "Source String";
 char dest[20];
-strcpy(dest, src);
-printf("Copied: %s", dest);
+strcpy(dest, src);  // Copies src to dest
+printf("Copied: %s", dest);  // Output: Copied: Source String
 
 ```
 
@@ -46,6 +68,7 @@ int main() {
     char lastName[20] = "Doe";
     char fullName[40];
     
+    // Build full name
     strcpy(fullName, firstName);
     strcat(fullName, " ");
     strcat(fullName, lastName);
@@ -53,5 +76,64 @@ int main() {
     printf("Full name: %s\n", fullName);
     printf("Length: %zu\n", strlen(fullName));
     
+    // Compare names
+    if (strcmp(firstName, lastName) == 0) {
+        printf("Names are identical\n");
+    } else {
+        printf("Names are different\n");
+    }
+    
     return 0;
 }
+
+```
+
+# Character Input Functions (from stdio.h)
+
+## getchar() - Character Input
+```c
+#include <stdio.h>
+
+printf("Press any key: ");
+int ch = getchar();  // Reads one character from input
+printf("You pressed: '%c'\n", ch);
+    
+```
+
+## Clearing Input Buffer
+```c
+#include <stdio.h>
+
+// Clear leftover characters from input buffer
+while (getchar() != '\n');  // Reads until newline
+
+```
+
+### Example
+```c
+#include <stdio.h>
+
+int main() {
+    int number;
+    char character;
+    
+    // Get number input
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    
+    // Clear input buffer after scanf
+    while (getchar() != '\n');
+    
+    // Get character input
+    printf("Enter a character: ");
+    character = getchar();
+    
+    // Clear any remaining characters
+    while (getchar() != '\n');
+    
+    printf("You entered: Number=%d, Character='%c'\n", number, character);
+    
+    return 0;
+}
+
+```
