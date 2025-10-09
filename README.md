@@ -1,6 +1,6 @@
 # Programming 1 - C Language
 
-This repository contains my comprehensive notes, code examples, and exercises for Programming 1 using the C language. The content is organized for easy navigation and learning.
+This repository contains my comprehensive notes and code examples for Programming 1 using the C language. The content is organized for easy navigation and learning.
 
 ## 📚 Topics Covered
 
@@ -10,7 +10,7 @@ This repository contains my comprehensive notes, code examples, and exercises fo
 - **Format Specifiers** - Input/output formatting with printf/scanf
 - **Typecasting** - Implicit and explicit type conversion
 - **Escape Sequences** - Special characters in strings
-s
+
 ### Operators (06-12)
 - **Unary Operators** - Increment, decrement, and sizeof
 - **Arithmetic Operators** - Basic mathematical operations
@@ -39,10 +39,9 @@ s
 
 ## 🚀 How to Use This Repository
 
-1. **Study Notes**: Follow the numbered files in sequence for structured learning
-2. **Review Examples**: Check `Examples/` folder for practical implementations
-3. **Practice**: Attempt exercises in `Exercises/` to reinforce learning
-4. **Compile & Run**: Use a C compiler (GCC recommended) to test code
+1. **Study Notes**: Follow the numbered files in sequence for structured learning  
+2. **Review Examples**: Check `Examples/` folder for practical implementations  
+3. **Compile & Run**: Use a C compiler (GCC recommended) to test code  
 
 ## 💻 Compilation Instructions
 
