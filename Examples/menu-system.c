@@ -4,6 +4,7 @@ int main() {
     char choice;
     
     do {
+        
         printf("\nMenu:\n");
         printf("(A)dd record\n");
         printf("(D)elete record\n");

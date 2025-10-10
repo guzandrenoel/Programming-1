@@ -9,7 +9,7 @@ int main() {
     for (; num != 0; i++) {
         num /= 10;
     }
-
+    
     printf("Number of digits: %d", i);
     return 0;
 }
