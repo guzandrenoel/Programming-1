@@ -82,6 +82,8 @@ int main() {
 
 ```
 
+---
+
 ## Array Bounds
 
 The valid range of indices that can be used to access array elements.
@@ -91,3 +93,74 @@ int arr[5] = {1, 2, 3, 4, 5};
 // arr[5] = 6;  // ERROR: Array index out of bounds
 // arr[-1] = 0; // ERROR: Invalid index
 
+```
+
+---
+
+### Example
+
+```c
+#include <stdio.h>
+
+#define SIZE 5
+#define ROWS 2
+#define COLS 3
+
+int main() {
+    // 1D Array
+    int scores[SIZE] = {95, 87, 92, 78, 85};
+    
+    printf("Student Scores:\n");
+    for (int i = 0; i < SIZE; i++) {
+        printf("Student %d: %d\n", i + 1, scores[i]);
+    }
+    
+    // Access specific element
+    printf("\nThird student's score: %d\n", scores[2]);
+    
+    // 2D Array - Student grades for multiple subjects
+    int grades[ROWS][COLS] = {
+        {85, 92, 78},  // Student 1: Math, Science, English
+        {90, 88, 95}   // Student 2: Math, Science, English
+    };
+    
+    printf("\nStudent Grades:\n");
+    for (int i = 0; i < ROWS; i++) {
+        printf("Student %d: ", i + 1);
+        for (int j = 0; j < COLS; j++) {
+            printf("%d ", grades[i][j]);
+        }
+        printf("\n");
+    }
+    
+    // Access specific grade
+    printf("\nStudent 2's English grade: %d\n", grades[1][2]);
+    
+    // Array bounds demonstration
+    printf("\nValid indices for scores array: 0 to %d\n", SIZE - 1);
+    printf("Valid indices for grades array: [0-%d][0-%d]\n", ROWS - 1, COLS - 1);
+    
+    return 0;
+}
+
+/* Output:
+Student Scores:
+Student 1: 95
+Student 2: 87
+Student 3: 92
+Student 4: 78
+Student 5: 85
+
+Third student's score: 92
+
+Student Grades:
+Student 1: 85 92 78
+Student 2: 90 88 95
+
+Student 2's English grade: 95
+
+Valid indices for scores array: 0 to 4
+Valid indices for grades array: [0-1][0-2]
+*/
+
+```
