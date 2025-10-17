@@ -13,7 +13,7 @@ int myArr[5] = {10, 20, 22, 19, 15};
 |-------|---|---|---|---|---|
 | Value | 10 | 20 | 22 | 19 | 15 |
 
-## Accessing Elements
+### Accessing Elements
 
 - **Direct Access:**
 ```c
@@ -53,11 +53,14 @@ printf("%d", matrix[1][2]);  // 6
 
 ### Accessing elements:
 
-- matrix[0][1] → 2 (Row 0, Column 1)
+```c
+printf("matrix[0][1] = %d (Row 0, Column 1)\n", matrix[0][1]); // 2
 
-- matrix[1][2] → 6 (Row 1, Column 2)
+printf("matrix[1][2] = %d (Row 1, Column 2)\n", matrix[1][2]); // 6
 
-- matrix[1][0] → 4 (Row 1, Column 0)
+printf("matrix[1][0] = %d (Row 1, Column 0)\n", matrix[1][0]); // 4
+
+```
 
 ---
 
