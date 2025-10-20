@@ -10,7 +10,7 @@ Variables are named storage locations in memory used to hold data, and data type
 
 # Data Types
 
-Classifies the type of data a variable can hold, determining the range of values and the operations that can be performed on it. 
+Define the characteristics of the data - what values it can hold, how much memory it uses, and what operations you can perform on it.
 
 ## Primary Data Types
 - `int` – integer (4 bytes)
