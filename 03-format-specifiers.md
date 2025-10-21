@@ -41,18 +41,7 @@ printf("Code: %04d", code);  // Output: Code: 0042
 
 ---
 
-## About %zu
-
-%zu is specifically for size_t values returned by sizeof, strlen, etc.
-
-```c
-char name[] = "Hello";
-printf("Length: %zu\n", strlen(name));  // 5
-printf("Size: %zu\n", sizeof(name));    // 6
-
-```
-
-## Complete Example
+### Example
 
 ```c
 #include <stdio.h>
