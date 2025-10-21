@@ -1,7 +1,6 @@
 # Variables
 
-Variables are named storage locations in memory used to hold data, and data types specify the kind of data a variable can store and the amount of memory it occupies.
-
+Variables are named storage locations in memory used to hold data.
 
 ## Variable Declaration and Assignment
 | Declaration | Initialization | Assignment |
