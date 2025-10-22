@@ -1,6 +1,6 @@
 # Bitwise Operators
 
-Bitwise operators work on individual bits of integer values.
+Bitwise operators perform operations on numbers at the level of their individual bits (binary digits).
 
 | Operator | Description | Example | Result |
 |----------|-------------|---------|--------|
