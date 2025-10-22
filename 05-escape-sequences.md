@@ -15,7 +15,7 @@ Escape sequences are special character combinations used to represent characters
 | `\b` | Backspace | `printf("Hello\b");` | Hell |
 | `\r` | Carriage return | `printf("Hello\rWorld");` | World |
 
-## Example Usage
+## Example 
 ```c
 #include <stdio.h>
 

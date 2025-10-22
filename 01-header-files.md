@@ -9,7 +9,7 @@
   - `<stdbool.h>` – Boolean type support (`bool`, `true`, `false`)
   - `<ctype.h>` – Character handling functions (`isalpha`, `isdigit`, `toupper`)
 
-## Example Usage
+## Example 
 ```c
 #include <stdio.h>
 #include <stdlib.h>
