@@ -1,5 +1,7 @@
 # Arithmetic Operators
 
+Operators that perform mathematical calculations.
+
 | Operator | Description | Example | Result |
 |----------|-------------|---------|--------|
 | `+` | Addition | `5 + 3` | `8` |

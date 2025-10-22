@@ -1,6 +1,6 @@
 # Unary Operators
 
-Unary operators operate on a single operand.
+Unary operators perform an operation using only a single operand (variable or value).
 
 ## Increment/Decrement Prefix (`++x`, `--x`) 
 
