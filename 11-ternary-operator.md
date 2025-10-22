@@ -2,14 +2,13 @@
 
 The ternary operator is a shorthand for `if-else` statements.
 
-## Syntax
 ```c
 condition ? expression_if_true : expression_if_false;
 
-int age = 20;
-char* status = (age >= 18) ? "Adult" : "Minor";
-printf("%s\n", status);  // Output: Adult
+```
 
+## Example
+```c
 int a = 5, b = 3;
 int max = (a > b) ? a : b;
 printf("Maximum: %d\n", max);  // Output: Maximum: 5
