@@ -2,7 +2,7 @@
 
 Unary operators perform an operation using only a single operand (variable or value).
 
-## Increment/Decrement Prefix (`++x`, `--x`) 
+## Increment/Decrement Prefix Operators (`++x`, `--x`) 
 
 The variable is modified first, then its new value is returned.
 
@@ -14,7 +14,7 @@ int y = ++x;  // x=6, y=6
 
 ```
 
-## Increment/Decrement Postfix (x++, x--) Operators
+## Increment/Decrement Postfix Operators (`x++`, `x--`) 
 
 The variable's original value is used in the expression, and then the variable is modified afterwards. 
 
