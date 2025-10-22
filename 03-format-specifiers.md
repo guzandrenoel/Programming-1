@@ -20,7 +20,7 @@ Format specifiers are used with `printf()` and `scanf()` functions to specify th
 
 ## Format Specifiers with Precision
 
-### Float with 2 decimal places 
+### Float with decimal places 
 
 Used to limit the number of digits after the decimal point.
 
