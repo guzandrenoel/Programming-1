@@ -27,8 +27,6 @@ Compound assignment operators perform an operation and assignment in one step.
 
 int main() {
     int x = 10;
-    char grade = 'A';
-    float price = 19.99;
     
     x += 5;   // x = 15
     x -= 3;   // x = 12
