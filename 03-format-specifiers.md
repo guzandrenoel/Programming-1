@@ -20,27 +20,39 @@ Format specifiers are used with `printf()` and `scanf()` functions to specify th
 
 ## Format Specifiers with Precision
 
-### Float with 2 decimal places - Used to limit the number of digits after the decimal point.
+### Float with 2 decimal places 
+
+Used to limit the number of digits after the decimal point.
+
 ```c
 float gpa = 3.75;
 printf("GPA: %.2f", gpa);  // Output: GPA: 3.75
 
 ```
 
-### Integer with minimum width - Used to set a minimum number of spaces the integer should occupy.
+### Integer with minimum width 
+
+Used to set a minimum number of spaces the integer should occupy.
+
 ```c
 int number = 42;
 printf("Number: %5d", number);  // Output: Number:    42
 
 ```
 
-### String with limited characters - Used to print only a specific number of characters from a string.
+### String with limited characters 
+
+Used to print only a specific number of characters from a string.
+
 ```c
 char text[] = "Hello World";
 printf("Text: %.5s", text);  // Output: Text: Hello
 
 ```
-### Leading zeros - Used to pad the number with zeros instead of spaces to reach a specific width.
+### Leading zeros 
+
+Used to pad the number with zeros instead of spaces to reach a specific width.
+
 ```c
 int code = 42;
 printf("Code: %04d", code);  // Output: Code: 0042
