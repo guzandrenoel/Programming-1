@@ -7,9 +7,6 @@ A logical statement that evaluates to either **true** or **false**.
 - **Without `stdbool.h`**: Use integers
   - `0` → false  
   - Any non-zero value → true (usually `1`)
-- **With `stdbool.h`**: Use proper boolean types
-  - `true` → 1
-  - `false` → 0
 
 ```c
 #include <stdio.h>
@@ -27,7 +24,11 @@ int main() {
 
 ```
 
-## Using stdbool.h for Clear Code
+---
+
+- **With `stdbool.h`**: Use proper boolean types
+  - `false` → 0
+  - `true` → 1
 
 ```c
 #include <stdio.h>
@@ -50,24 +51,34 @@ int main() {
 
 ```
 
+---
+
 ## Common Boolean Expressions
+
+### Comparison operators
 
 ```c
 int x = 10, y = 5;
 
-// Comparison operators
 printf("x > y: %d\n", x > y);    // 1
 printf("x == y: %d\n", x == y);  // 0
 printf("x != y: %d\n", x != y);  // 1
 printf("x <= y: %d\n", x <= y);  // 0
 
-// With stdbool.h - much clearer!
+```
+
+### With stdbool.h 
+
+```c
+#include <stdbool.h>
+
 bool isGreater = (x > y);
 bool isEqual = (x == y);
 
 ```
 
-## Logical Operators
+
+### Logical Operators
 
 ```c
 bool a = true, b = false;
@@ -76,7 +87,11 @@ printf("a AND b: %d\n", a && b);  // 0 (false)
 printf("a OR b: %d\n", a || b);   // 1 (true)
 printf("NOT a: %d\n", !a);        // 0 (false)
 
-// Real-world example
+```
+
+### Real-world example
+
+```c
 int age = 20;
 bool hasLicense = true;
 bool canDrive = (age >= 18) && hasLicense;  // true
