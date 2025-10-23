@@ -58,43 +58,77 @@ int main() {
 ### Comparison operators
 
 ```c
-int x = 10, y = 5;
+#include <stdio.h>
 
-printf("x > y: %d\n", x > y);    // 1
-printf("x == y: %d\n", x == y);  // 0
-printf("x != y: %d\n", x != y);  // 1
-printf("x <= y: %d\n", x <= y);  // 0
+int main() {
+    int x = 10, y = 5;
+
+    printf("x > y: %d\n", x > y);     // 1 (true)
+    printf("x == y: %d\n", x == y);   // 0 (false)
+    printf("x != y: %d\n", x != y);   // 1 (true)
+    printf("x <= y: %d\n", x <= y);   // 0 (false)
+
+    return 0;
+}
 
 ```
 
 ### With stdbool.h 
 
 ```c
+#include <stdio.h>
 #include <stdbool.h>
 
-bool isGreater = (x > y);
-bool isEqual = (x == y);
+int main() {
+    int x = 10, y = 5;
+
+    bool isGreater = (x > y);
+    bool isEqual = (x == y);
+
+    printf("isGreater: %d\n", isGreater);  // 1 (true)
+    printf("isEqual: %d\n", isEqual);      // 0 (false)
+
+    return 0;
+}
 
 ```
-
 
 ### Logical Operators
 
 ```c
-bool a = true, b = false;
+#include <stdio.h>
+#include <stdbool.h>
 
-printf("a AND b: %d\n", a && b);  // 0 (false)
-printf("a OR b: %d\n", a || b);   // 1 (true)
-printf("NOT a: %d\n", !a);        // 0 (false)
+int main() {
+    bool a = true, b = false;
+
+    printf("a AND b: %d\n", a && b);  // 0 (false)
+    printf("a OR b: %d\n", a || b);   // 1 (true)
+    printf("NOT a: %d\n", !a);        // 0 (false)
+
+    return 0;
+}
+     // 0 (false)
 
 ```
 
 ### Real-world example
 
 ```c
-int age = 20;
-bool hasLicense = true;
-bool canDrive = (age >= 18) && hasLicense;  // true
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    int age = 20;
+    bool hasLicense = true;
+
+    bool canDrive = (age >= 18) && hasLicense;
+
+    printf("Can drive: %d\n", canDrive);  // 1 (true)
+
+    return 0;
+}
+
 
 ```
 
