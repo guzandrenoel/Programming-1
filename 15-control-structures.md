@@ -14,7 +14,7 @@ printf("%d", x);  // Executed in order: 5 → 8 → print 8
 ```
 ## 2. Conditional/Selection
 
-Execution different paths based on a condition. (`if`, `else if`, `else`, `switch`)
+Executes different paths based on a condition. (`if`, `else if`, `else`, `switch`)
 
 ```c
 // if statement
