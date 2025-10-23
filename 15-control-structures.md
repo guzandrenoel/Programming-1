@@ -1,10 +1,10 @@
-# Control Structures 
+# Three types of Control Structures 
 
 Programming statements that regulate a program's execution flow by dictating the order in which instructions are carried out, allowing for conditional execution and repetition.
 
-## 1. Sequence
+## 1. Sequential/Composition
 
-Statements are executed in the order they appear.
+Sequence of statements are executed in order of appearance.
 
 ```c
 int x = 5;
@@ -12,9 +12,9 @@ x = x + 3;
 printf("%d", x);  // Executed in order: 5 → 8 → print 8
 
 ```
-## 2. Conditional
+## 2. Conditional/Selection
 
-Execution depends on conditions.
+Execution different paths based on a condition. (`if`, `else if`, `else`, `switch`)
 
 ```c
 // if statement
@@ -30,7 +30,7 @@ switch (x) {
 ```
 ## 3. Iteration (Loops)
 
-Statements are executed repeatedly.
+Sequence of statements may be executed repeatedly, zero or more.
 
 ```c
 // for loop
