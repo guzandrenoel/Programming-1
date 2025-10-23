@@ -7,7 +7,7 @@ Bitwise operators perform operations on numbers at the level of their individual
 | `&` | AND | `5 & 3` | `1` (0101 & 0011 = 0001) |
 | `\|` | OR | `5 \| 3` | `7` (0101 \| 0011 = 0111) |
 | `^` | XOR | `5 ^ 3` | `6` (0101 ^ 0011 = 0110) |
-| `~` | NOT | `~5` | `-6` (inverts all bits) |
+| `~` | NOT | `~5` | `-6` ~0000000000000101 = 1111111111111010 |
 | `<<` | Left shift | `5 << 1` | `10` (0101 << 1 = 1010) |
 | `>>` | Right shift | `5 >> 1` | `2` (0101 >> 1 = 0010) |
 
