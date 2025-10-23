@@ -11,8 +11,6 @@ A logical statement that evaluates to either **true** or **false**.
   - `true` → 1
   - `false` → 0
 
-## Basic Examples
-
 ```c
 #include <stdio.h>
 
