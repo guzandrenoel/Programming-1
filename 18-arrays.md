@@ -32,17 +32,17 @@ for (int i = 0; i < 5; i++) {
 
 ---
 
-## Multi-dimensional Arrays
+# Multi-dimensional Arrays
 
 Arrays with more than one dimension, often used to represent tables or matrices.
+
+## Declaration and Initialization
 
 ```c
 int matrix[2][3] = {
     {1, 2, 3},
     {4, 5, 6}
 };
-
-printf("%d", matrix[1][2]);  // 6
 
 ```
 
@@ -51,14 +51,32 @@ printf("%d", matrix[1][2]);  // 6
 | 0      | 1 | 2 | 3 |
 | 1      | 4 | 5 | 6 |
 
-### Accessing elements:
+### Accessing Elements
 
+- **Direct Access:**
 ```c
-printf("matrix[0][1] = %d (Row 0, Column 1)\n", matrix[0][1]); // 2
+printf("%d\n", matrix[1][2]);  // 6
 
-printf("matrix[1][2] = %d (Row 1, Column 2)\n", matrix[1][2]); // 6
+printf("%d\n", matrix[0][1]); // 2
 
-printf("matrix[1][0] = %d (Row 1, Column 0)\n", matrix[1][0]); // 4
+printf("%d\n", matrix[1][0]); // 4
+
+```
+
+- **Access via Nested loops:**
+```c
+for (int i = 0; i < 2; i++) {        // Rows
+    for (int j = 0; j < 3; j++) {    // Columns
+        printf("%d ", matrix[i][j]);
+    }
+    printf("\n");
+}
+
+/* 
+Output:
+1 2 3
+4 5 6
+*/
 
 ```
 
