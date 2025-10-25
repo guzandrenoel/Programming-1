@@ -141,7 +141,7 @@ int arr[5] = {1, 2, 3, 4, 5};
 
 ---
 
-## Full Array Code Example
+## Array Demonstration (1D and 2D)
 
 ```c
 #include <stdio.h>
