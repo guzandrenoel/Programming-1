@@ -86,7 +86,9 @@ Output:
 
 Constants are fixed values that **do not change during program execution**.  
 
-### Using `#define`
+### `#define` 
+
+Used to create symbolic constants or macros before compilation; performs text replacement with no data type.
 
 ```c
 #include <stdio.h>
@@ -107,7 +109,9 @@ int main() {
 
 ```
 
-### Using `const`
+### `const`
+
+Declares a typed variable whose value cannot change during program execution; offers type safety and clarity.
 
 ```c
 #include <stdio.h>
