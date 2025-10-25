@@ -82,24 +82,47 @@ Output:
 
 ---
 
-## Using Constants
+## Constants
 
-Using named constants for array sizes to improve code maintainability.
+Constants are fixed values that **do not change during program execution**.  
+
+### Using `#define`
 
 ```c
 #include <stdio.h>
 
-#define SIZE 5
+#define SIZE 5  // Named constant for array size
 
 int main() {
     int myArr[SIZE] = {1, 2, 3, 4, 5};
+
     for (int i = 0; i < SIZE; i++) {
         printf("%d ", myArr[i]);
     }
+
     return 0;
 }
+// Output: 1 2 3 4 5
 
-// Output: 1 2 3 4 5 
+
+```
+
+### Using `const`
+
+```c
+#include <stdio.h>
+
+int main() {
+    const int SIZE = 5;  // Constant variable
+    int myArr[SIZE] = {10, 20, 30, 40, 50};
+
+    for (int i = 0; i < SIZE; i++) {
+        printf("%d ", myArr[i]);
+    }
+
+    return 0;
+}
+// Output: 10 20 30 40 50
 
 ```
 
@@ -118,7 +141,7 @@ int arr[5] = {1, 2, 3, 4, 5};
 
 ---
 
-### Example
+## Full Array Code Example
 
 ```c
 #include <stdio.h>
