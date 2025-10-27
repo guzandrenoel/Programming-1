@@ -38,7 +38,7 @@ printf("Hello %s", name);
 
 ```
 
-## Reading Strings with fgets()
+## Removing Newline After fgets()
 ```c
 fgets(stringName, sizeof(stringName), stdin);
 size_t len = strlen(stringName);
